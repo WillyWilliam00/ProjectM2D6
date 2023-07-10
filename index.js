@@ -1,11 +1,11 @@
  function traduci() {
 
-    document.querySelector("h1").innerHTML = "Telefoni per vecchietti"
+    document.querySelector("h1").innerHTML = "Telefoni per vecchiettini"
 }
 
-function BackgroundColor() {
+function BackgroundColor(str) {
 
-    document.querySelector("body").style.backgroundColor = "red"
+    document.querySelector("body").style.backgroundColor = str
     
 }
 
