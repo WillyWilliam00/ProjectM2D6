@@ -32,11 +32,11 @@ function ImgHidden() {
     }
  }
 
- function ChangeColor() {
+ function ChangeColor(str) {
 
    for (let tagprice of document.querySelectorAll(".price")) {
 
-    tagprice.style.color = "green"
+     tagprice.style.color = str
    }
 
     
